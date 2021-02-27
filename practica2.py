@@ -22,6 +22,7 @@ while(True):
 		opcion = int(input("Elige una opcion: "))
 	except:
 		print("Opcion Incorrecta o Dato Incorrecto")
+		continue
 
 	if opcion == 1:
 		print("Programa Inicializado Hello World!")
